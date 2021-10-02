@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriesFragment">
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.CategoriesFragment"
+        android:label="fragment_catagories"
+        tools:layout="@layout/fragment_catagories" />
+    <fragment
+        android:id="@+id/mostPopularFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.MostPopularFragment"
+        android:label="fragment_most_popular"
+        tools:layout="@layout/fragment_most_popular" />
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.RandomFragment"
+        android:label="fragment_random"
+        tools:layout="@layout/fragment_random" />
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.PopularFragment"
+        android:label="fragment_popular"
+        tools:layout="@layout/fragment_popular" />
+    <fragment
+        android:id="@+id/recentFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.RecentFragment"
+        android:label="fragment_recent"
+        tools:layout="@layout/fragment_recent" />
+    <fragment
+        android:id="@+id/weeklyPopularFragment"
+        android:name="base.image.mywallpaper.Presentation.Fragment.WeeklyPopularFragment"
+        android:label="fragment_weekly_popular"
+        tools:layout="@layout/fragment_weekly_popular" />
+</navigation>

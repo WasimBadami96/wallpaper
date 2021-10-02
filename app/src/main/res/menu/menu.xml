@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/likewallpaper"
+            android:icon="@drawable/hrt"
+            android:title="Like Wallpaper" />
+        <item
+            android:id="@+id/privacy"
+            android:icon="@drawable/ic_profile"
+            android:title="Privacy" />
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_more"
+            android:title="More App" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+    </group>
+
+    <item android:title="Communicate"
+        >
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/fb"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/twit"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/google"
+                android:icon="@drawable/google"
+                android:title="Google" />
+        </menu>
+
+    </item>
+</menu>
